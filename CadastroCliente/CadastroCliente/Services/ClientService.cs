@@ -15,11 +15,11 @@ public class ClientService
     //Salvar uma "LISTA" de clientes
     public void SaveCustomer(List<Client> clients)
     {
-        using (StreamWriter sr = new StreamWriter(_archive))
+        using (StreamWriter sw = new StreamWriter(_archive))
         {
             foreach (Client client in clients)
             {
-                sr.WriteLine($"{client.Name}; {client.Cpf}");
+                sw.WriteLine($"{client.Name}; {client.Cpf}");
             }
         }
     }

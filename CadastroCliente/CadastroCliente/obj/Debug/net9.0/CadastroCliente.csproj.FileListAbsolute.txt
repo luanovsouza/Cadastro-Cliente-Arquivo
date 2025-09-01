@@ -1,0 +1,15 @@
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\bin\Debug\net9.0\CadastroCliente.exe
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\bin\Debug\net9.0\CadastroCliente.deps.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\bin\Debug\net9.0\CadastroCliente.runtimeconfig.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\bin\Debug\net9.0\CadastroCliente.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\bin\Debug\net9.0\CadastroCliente.pdb
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.AssemblyInfoInputs.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.AssemblyInfo.cs
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.csproj.CoreCompileInputs.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.sourcelink.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\refint\CadastroCliente.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.pdb
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\CadastroCliente.genruntimeconfig.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\CadastroCliente\obj\Debug\net9.0\ref\CadastroCliente.dll

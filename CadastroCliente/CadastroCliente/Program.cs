@@ -3,7 +3,6 @@ using CadastroCliente.Services;
 
 namespace CadastroCliente;
 
-
 public class Program
 {
     static void Main(string[] args)
@@ -18,25 +17,26 @@ public class Program
             new Client("Maria Souza", "98765432100"),
             new Client("Pedro Lima", "45678912300"),
             new Client("Luan Souza", "16497950761"),
-            new Client("Jose Pereira", "381930231")
+            new Client("Jose Pereira", "381930231"),
+            new Client("Matheus Fernandes", "123456789")
         };
 
         try
         {
+            //Salvando todos no mesmo arquivo
             clientService.SaveCustomer(clients);
-            Console.WriteLine("Clientes Salvos com Sucesso!");  
-
+            Console.WriteLine("Clientes Salvos!");  
+            
+            
+            //Le todas as linhas e cria objeto Client
             List<Client> carregados = clientService.LoadCustomers();
             Console.WriteLine("Cliente Carregado com Sucesso!");
-
-            foreach (Client carregado in carregados)
-            {
-                Console.WriteLine(carregado);
-            }
-
+            
+            
+            //Criando Arquivo novo.
             string finalpath =
                 @"C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Cadastro-Cliente-Arquivo\CadastroCliente\RelatorioCliente.csv";
-
+            
             Console.WriteLine("Arquivo Criado com Sucesso!");
             clientService.CreateReport(finalpath);
             
@@ -47,6 +47,5 @@ public class Program
             Console.WriteLine("Um erro Aconteceu: ");
             Console.WriteLine(e.Message);
         }
-        
     }
 }
