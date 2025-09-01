@@ -12,7 +12,7 @@ public class ClientService
     }
     
     
-    //SAlvar uma "LISTA" de clientes
+    //Salvar uma "LISTA" de clientes
     public void SaveCustomer(List<Client> clients)
     {
         using (StreamWriter sr = new StreamWriter(_archive))
@@ -24,20 +24,32 @@ public class ClientService
         }
     }
 
+    
+    //Carregar a lista de clientes
     public List<Client> LoadCustomers()
     {
         var client = new List<Client>();
 
-        if (File.Exists(_archive))
-            return client;
+        if (!File.Exists(_archive)) //Verificando se o arquivo existe
+            return client; // vai retornar um cliente salvo
 
-        using (StreamReader sr = new StreamReader(_archive))
+
+        if (_archive != null)
         {
-            string linha;
-            while ((linha = sr.ReadLine()) != null)
+            using (StreamReader sr = new StreamReader(_archive))
             {
-                string[] 
+                string linha;
+                while ((linha = sr.ReadLine()) != null) // Se for, diferente de nulo tem alguma coisa ainda
+                {
+                    string[] fields = linha.Split(';');
+                    string name = fields[0];
+                    string cpf = fields[1];
+
+                    client.Add(new Client(name, cpf));
+                }
             }
         }
+        
+        return client;
     }
 }
